@@ -1,5 +1,2 @@
 # Group-Project-
-<head>
-</head>
-<body>
-</body>
+# HTML PAGES
