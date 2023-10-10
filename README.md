@@ -1,12 +1,12 @@
-# Sports Mainia (Provisional Title)
+# Sports Mainia
 
 
 # Quicklinks
 
- [Chelsea F.C](./Chelsea.html)
- [Alisa's](./AlisaHTMLfile.html)
- [Ahaan's](./Ahaan.html)
+ 1. [Chelsea F.C](./Chelsea.html)
+ 2. [Alisa's](./AlisaHTMLfile.html)
+ 3. [Ahaan's](./Ahaan.html)
 
 
 
-
+<img src=".\IndexPhoto.png" alt="Failed" width="400" height="400" />
