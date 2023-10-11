@@ -1,78 +1,422 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Chelsea F.C.</title>
-<title>Blue is the Color</title>
+    <title>Chelsea F.C.</title>
 </head>
+
+<style>
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: left
+    }
+
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .text {
+        font-size: 10px;
+        padding-left: 20px;
+    }
+</style>
+
+<!-- Code taken and modified from https://codedamn.com/news/frontend/how-to-put-image-and-text-side-by-side-in-html -->
+
 <body>
 
-<img src = ".\Chelsea" alt = "Failed">
+    <title>Chelsea F.C.</title>
+    <h1>About</h1>
+    <p>Welcome to a page about Chelsea Fc, the greatest football (soccer) club in the world. Chelsea was founded on March 10, 1905</p>
+    <img src="./Chelsea" alt="Failed" width="200" height="200" />
 
 
+    <h1>Matches</h1>
+    <p>All of Chelsea's Matches of the Campaign</p>
+    <p style = "color: green;">Games in Green are Games Chelsea have Won This Season</p>
+    <p style = "color: red;"> Games in Red are Games Chelsea have Lost This Season </p>
+    <p style = "color:grey;"> Games in Grey are Games Chelsea have Drawn This Season</p>
 
-<h1>Incomings</h1>
-<p>All of Chelsea's Incoming Transfers this season, and their reported fees</p>
+    <ol>
+        <li style="color:grey"> 1 - 1 vs Liverpool </li>
+        <li style="color:red;"> 3 - 1 vs West Ham </li>
+        <li style="color:green;"> 3 - 0 vs Luton Town</li>
+        <li style="color:green;"> 2 - 1 vs AFC Wimbledon </li>
+        <li style="color:red;"> 1 - 0 vs Nottingham Forest </li>
+        <li style="color:grey;"> 0 - 0 vs Bournemouth </li>
+        <li style="color:red;"> 1 - 0 vs Aston Villa </li>
+        <li style="color:green;"> 1 - 0 vs Brighton </li>
+        <li style="color:green;"> 2 - 0 vs Fulham </li>
+        <li style="color:green;"> 4 - 1 vs Burnley </li>
+        <li> vs Arsenal </li>
+        <li> vs Brentford </li>
+        <li> vs Blackbiurn </li>
+        <li> vs Tottenham Hotspur </li>
+        <li> vs Manchester City </li>
+        <li> vs Newcastle United </li>
+        <li> vs Brighton </li>
+        <li> vs Manchester United </li>
+        <li> vs Everton </li>
+        <li> vs Sheffield United </li>
+        <li> vs Wolverhampton Wanderers </li>
+        <li> vs Crystal Palace </li>
+        <li> vs Luton Town </li>
+        <li> vs Fulham </li>
+        <li> vs Liverpool </li>
+        <li> vs Wolverhampton Wanderers </li>
+        <li> vs Crystal Palace </li>
+        <li> vs Manchester City </li>
+        <li> vs Tottenham Hotspur </li>
+        <li> vs Brentford </li>
+        <li> vs Newcastle United </li>
+        <li> vs Arsenal </li>
+        <li> vs Burnley </li>
+        <li> vs Manchester United </li>
+        <li> vs Sheffield United </li>
+        <li> vs Everton </li>
+        <li> vs Brighton </li>
+        <li> vs Aston Villa </li>
+        <li> vs West Ham </li>
+        <li> vs Nottingham Forest </li>
+        <li> vs Bournemouth </li>
+    </ol>
 
-<h1>Outgoings</h1>
-<p>All of Chelsea's Outgoing Transfers this season, and their reported fees</p>
+    <h1>Roster</h1>
 
-<h1>Matches</h1>
-<p>All of Chelsea's Matches of the Campaign</p>
 
-<h1>Roster</h1>
+    <h2>Goalkeepers</h2>
 
-<h2>Goalkeepers</h2>
+    <dl>
+        <div class="container">
+            <div class="image">
+                <img src=".\Bettinelli.png" alt="Failed" width="40" height="40">
+            </div>
+            <div class="text">
+                <dt> Marcus Bettinelli </dt>
+            </div>
+        </div>
 
-<dl>
-    <dt>Marcus Bettinelli</dt>
-    <dt>Robert Sánchez</dt>
-    <dt>Djordje Petrovic</dt>
-</dl>
-<h2>Defenders</h2>  
-    
-    <dt>Thiago Silva</dt>
-    <dt>Ben Chillwell</dt>
-    <dt>Axel Disasi</dt>
-    <dt>Malang Sarr</dt>
-    <dt>Trevoh Chalobah</dt>
-    <dt>Reece James</dt>
-    <dt>Marc Cucurella</dt>
-    <dt>Wesley Fofana</dt>
-    <dt>Benoit Badiashille</dt>
-    <dt>Ian Maatsen</dt>
-    <dt>Levi Colwill</dt>
-    <dt>Malo Gusto</dt>
-</dl>
+        <div class="container">
+            <div class="image">
+                <img src=".\Sánchez.png" alt="Failed" width="40" height="40">
+            </div>
+            <div class="text">
+                <dt>Robert Sánchez</dt>
+            </div>
+        </div>
 
-<h2>Midfielders</h2>
-<dl>
-    <dt>Conor Gallagher</dt>
-    <dt>Carney Chukwuemeka</dt>
-    <dt>Cole Palmer</dt>
-    <dt>Moisés Caicedo</dt>
-    <dt>Enzo Fernández</dt>
-    <dt>Romeo Lavia</dt>
-    <dt>Lesley Ugochukwu</dt>
-</dl>
+        <div class="container">
+            <div class="image">
+                <img src=".\Petrovic.png" alt="Failed" width="40" height="40">
+            </div>
+            <div class="text">
+                <dt>Djordje Petrovic</dt>
+            </div>
+        </div>
+    </dl>
 
-<h2>Attackers</h2>
-<dl>
-    <dt>Raheem Sterling</dt>
-    <dt>Christopher Nkunku</dt>
-    <dt>Mykhaylo Mudryk</dt>
-    <dt>Armando Broja</dt>
-    <dt>Noni Madueke</dt>
-    <dt>Nicolas Jackson</dt>
-    <dt>Deivid Washington de Souza</dt>
-</dl>
+    <h2>Defenders</h2>
 
-<h1>Injury List</h1>
-<p>Chelsea's Current Injury dtst</p>
-<ul>
-    <dt>Marcus Bettineldt</dt>
-    <dt>Ben CHillwell</dt>
-    <dt>Trevor Chalobah </dt>
-    <dt>Reece James</dt>
-  </ul>
+
+    <dl>
+        <div class="container">
+            <div class="image">
+                <img src=".\Silva.png" alt="Failed" width="40" height="40">
+            </div>
+            <div class="text">
+                <dt>Thiago Silva</dt>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src=".\Chilwell.png" alt="Failed" width="40" height="40">
+            </div>
+            <div class="text">
+                <dt>Ben Chilwell</dt>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src=".\Disasi.png" alt="Failed" width="40" height="40">
+            </div>
+            <div class="text">
+                <dt>Axel Disasi</dt>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src=".\Sarr.png" alt="Failed" width="40" height="40">
+            </div>
+            <div class="text">
+                <dt>Malang Sarr</dt>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src=".\Chalobah.png" alt="Failed" width="40" height="40">
+            </div>
+            <div class="text">
+                <dt>Trevoh Chalobah</dt>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src=".\James.png" alt="Failed" width="40" height="40">
+            </div>
+            <div class="text">
+                <dt>Reece James </dt>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src=".\Marc.png" alt="Failed" width="40" height="40">
+            </div>
+            <div class="text">
+                <dt>Marc Cucurella </dt>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src=".\Fofana.webp" alt="Failed" width="40" height="40">
+            </div>
+            <div class="text">
+                <dt>Wesley Fofana</dt>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src=".\Badiashille.png" alt="Failed" width="40" height="40">
+            </div>
+            <div class="text">
+                <dt>Benoit Badiashille</dt>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src=".\Maatsen.png" alt="Failed" width="40" height="40">
+            </div>
+            <div class="text">
+                <dt>Ian Maatsen </dt>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src=".\Colwill.png" alt="Failed" width="40" height="40">
+            </div>
+            <div class="text">
+                <dt>Levi Colwill </dt>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src=".\Gusto.png" alt="Failed" width="40" height="40">
+            </div>
+            <div class="text">
+                <dt>Malo Gusto</dt>
+            </div>
+        </div>
+    </dl>
+
+    <h2>Midfielders</h2>
+
+    <dl>
+        <div class="container">
+            <div class="image">
+                <img src=".\Conor.png" alt="Failed" width="40" height="40">
+            </div>
+            <div class="text">
+                <dt>Conor Gallagher</dt>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src=".\Carney.png" alt="Failed" width="40" height="40">
+            </div>
+            <div class="text">
+                <dt>Carney Chukwuemeka</dt>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src=".\Palmer.png" alt="Failed" width="40" height="40">
+            </div>
+            <div class="text">
+                <dt>Cole Palmer</dt>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src=".\Caicedo.png" alt="Failed" width="40" height="40">
+            </div>
+            <div class="text">
+                <dt>Moisés Caicedo</dt>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src=".\Enzo.png" alt="Failed" width="40" height="40">
+            </div>
+            <div class="text">
+                <dt>Enzo Fernández </dt>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src=".\Lavia.png" alt="Failed" width="40" height="40">
+            </div>
+            <div class="text">
+                <dt>Romeo Lavia </dt>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src=".\Lesley.png" alt="Failed" width="40" height="40">
+            </div>
+            <div class="text">
+                <dt>Lesley Ugochukwu </dt>
+            </div>
+        </div>
+    </dl>
+
+    <h2>Attackers</h2>
+
+    <dl>
+        <div class="container">
+            <div class="image">
+                <img src=".\Sterling.webp" alt="Failed" width="40" height="40">
+            </div>
+            <div class="text">
+                <dt>Raheem Sterling</dt>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src=".\Nkunku.png" alt="Failed" width="40" height="40">
+            </div>
+            <div class="text">
+                <dt>Christopher Nkunku</dt>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src=".\Broja.png" alt="Failed" width="40" height="40">
+            </div>
+            <div class="text">
+                <dt>Armando Broja</dt>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src=".\Madueke.png" alt="Failed" width="40" height="40">
+            </div>
+            <div class="text">
+                <dt>Noni Madueke</dt>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src=".\Mudryk.png" alt="Failed" width="40" height="40">
+            </div>
+            <div class="text">
+                <dt>Mykhailo Mudryk</dt>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src=".\Jackson.png" alt="Failed" width="40" height="40">
+            </div>
+            <div class="text">
+                <dt>Nicolas Jackson</dt>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src=".\Washington.webp" alt="Failed" width="40" height="40">
+            </div>
+            <div class="text">
+                <dt>Deivid Washington de Souza</dt>
+            </div>
+        </div>
+
+
+    </dl>
+
+    <h1>Injury List</h1>
+    <p>A List of Players Currently Injured for Chelsea</p>
+    <dl>
+        <div class="container">
+            <div class="image">
+                <img src=".\Bettinelli.png" alt="Failed" width="40" height="40">
+            </div>
+            <div class="text">
+                <dt> Marcus Bettinelli </dt>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="image">
+                <img src=".\Chilwell.png" alt="Failed" width="40" height="40">
+            </div>
+            <div class="text">
+                <dt>Ben Chilwell</dt>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src=".\Chalobah.png" alt="Failed" width="40" height="40">
+            </div>
+            <div class="text">
+                <dt>Trevoh Chalobah</dt>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src=".\James.png" alt="Failed" width="40" height="40">
+            </div>
+            <div class="text">
+                <dt>Reece James</dt>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src=".\Fofana.webp" alt="Failed" width="40" height="40">
+            </div>
+            <div class="text">
+                <dt>Wesley Fofana</dt>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src=".\Badiashille.png" alt="Failed" width="40" height="40">
+            </div>
+            <div class="text">
+                <dt>Benoit Badiashille</dt>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src=".\Lavia.png" alt="Failed" width="40" height="40">
+            </div>
+            <div class="text">
+                <dt>Romeo Lavia </dt>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="image">
+                <img src=".\Nkunku.png" alt="Failed" width="40" height="40">
+            </div>
+            <div class="text">
+                <dt>Christopher Nkunku</dt>
+            </div>
+        </div>
+    </dl>
+
+   
+    <footer>By : Antwone Henry</footer>
+    <a href=./README.md>Return to the Index</a>
 </body>
+
 </html>
