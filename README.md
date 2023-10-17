@@ -1,12 +1,4 @@
-# Sports Mainia
 
+Welcome to our website.:wave:
 
-# Quicklinks
-
- 1. [Chelsea F.C](./Chelsea.html)
- 2. [Alisa's](./AlisaHTMLfile.html)
- 3. [Ahaan's](./Ahaan.html)
-
-
-
-<img src=".\IndexPhoto.png" alt="Failed" width="400" height="400" />
+Our website contains information on two different sports, football (soccer) and track & field. Three of the pages on our site contain information on three of the largest football clubs in the world, while one page contains details on the current status of track & field.
