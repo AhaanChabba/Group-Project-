@@ -3,23 +3,27 @@ body {
   }
   
   h1 {
-    color: rgb(16, 85, 41);
+    color: rgb(150, 216, 227);
     margin-left: 20px;
   }
   ul{
-    color: rgb(14, 66, 23);
+    color: rgb(151, 215, 218);
   }
   table, th, td{
-    background-color: rgb(201, 237, 147);
+    background-color: rgb(147, 237, 213);
     border: 1px solid;
   }
   p{
     margin: 1.5vh;
+    color:rgb(150, 216, 227);
   }
   img, h1{
     height: 110%;
     width: 110%;
   }
   a{
-    color: black
+    color: rgb(147, 237, 213)
+  }
+  h3{
+    color:rgb(30, 223, 158)
   }
