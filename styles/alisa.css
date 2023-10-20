@@ -1,7 +1,25 @@
-<!DOCTYPE HTML>
-
-<html>
-<body>
-
-</body>
-</html>
+body {
+    background-color: rgb(182, 230, 173);
+  }
+  
+  h1 {
+    color: rgb(16, 85, 41);
+    margin-left: 20px;
+  }
+  ul{
+    color: rgb(14, 66, 23);
+  }
+  table, th, td{
+    background-color: rgb(201, 237, 147);
+    border: 1px solid;
+  }
+  p{
+    margin: 1.5vh;
+  }
+  img, h1{
+    height: 110%;
+    width: 110%;
+  }
+  a{
+    color: black
+  }

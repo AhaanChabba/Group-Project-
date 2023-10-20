@@ -1,8 +1,9 @@
 body {
-    background-color: red; 
-    background-image: linear-gradient(to right, blue , silver);
+    background-color: red;
+    background-image: linear-gradient(to right, blue, silver);
     margin: auto;
-  }
+}
+
 section {
     display: flex;
     flex-direction: row;
@@ -10,6 +11,18 @@ section {
     flex: 10px;
 }
 
+body {
+    font-family: sans-serif;
+}
+
+a:hover {
+    background-color: red
+}
+
 article {
     margin: 10px;
+}
+
+a {
+    display: flex;
 }
