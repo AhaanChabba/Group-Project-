@@ -1,6 +1,8 @@
 body {
     background-color: rgb(182, 230, 173);
+    margin-right: 10px;
   }
+ 
   .row {
     display: flex;
   }
@@ -27,8 +29,9 @@ body {
   }
   img, h1{
     height: 110%;
-    width: 110%;
+    width: 100%;
   }
   a{
-    color: rgb(147, 237, 213)
+    color: rgb(147, 237, 213);
+    margin: 10px;
   }
