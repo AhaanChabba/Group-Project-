@@ -1,0 +1,22 @@
+h1 {
+    color: red;
+    font-size: 5em;
+  }
+ 
+  
+li:first-child{
+    color:blue
+}
+
+  ul:first-child{
+    color:darkgreen
+  }
+ 
+
+  #idname {
+
+  }
+
+  .classname {
+
+  }
