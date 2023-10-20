@@ -17,5 +17,6 @@ body {
     margin: 1.5vh;
   }
   img, h1{
-    
+    height: 100%;
+    width: 100%;
   }

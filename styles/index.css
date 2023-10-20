@@ -5,7 +5,9 @@ section {
     flex-wrap: wrap;
     flex: 10px;
 }
-
+body{
+    font-family:sans-serif;
+}
 article {
     margin: 10px;
 }
