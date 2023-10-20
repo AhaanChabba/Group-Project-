@@ -2,11 +2,23 @@ h1 {
     color: red;
     font-size: 5em;
   }
+  ol{
+    color:blue
+p:first-child {
+    color:blue
+}
+  }
+  ul{
+    color:darkgreen
+  }
+  p:first-child{
+    color:darkgreen
+  }
 
   #idname {
 
   }
 
   .classname {
-    
+
   }
