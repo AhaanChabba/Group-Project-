@@ -1,16 +1,28 @@
-section {
+body {
+    background-color: red;
+    background-image: linear-gradient(to right, blue, silver);
+    margin: auto;
+}
 
+section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     flex: 10px;
 }
-body{
-    font-family:sans-serif;
+
+body {
+    font-family: sans-serif;
 }
-a:hover{
+
+a:hover {
     background-color: red
 }
+
 article {
     margin: 10px;
+}
+
+a {
+    display: flex;
 }

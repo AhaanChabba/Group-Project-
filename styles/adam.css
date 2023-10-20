@@ -1,21 +1,22 @@
 h1 {
-    color: red;
-    font-size: 5em;
-  }
- 
-.one:first-child{
-    color:darkblue
-}
-.two:first-child{
-    color:darkgreen
+  color: red;
+  font-size: 5em;
 }
 
-  .paragraph {
+.one:first-child {
+  color: darkblue
+}
 
-font-style: oblique;
-  }
+.two:first-child {
+  color: darkgreen
+}
 
-  p{
-    padding: 0px 0px 0px 0px;
-margin:1.5vh 0vh 0vh 0vh;
+.paragraph {
+
+  font-style: oblique;
+}
+
+p {
+  padding: 0px 0px 0px 0px;
+  margin: 1.5vh 0vh 0vh 0vh;
 }
