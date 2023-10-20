@@ -16,5 +16,15 @@ p {
  }
 
  h1 {
-    font-style: Helvetica;
+    font-style: oblique;
+      }
+      a {
+        width: 100px;
+        height: 100px;
+        background: red;
+        transition: width 2s;
+      }
+      
+      div:hover {
+        width: 300px;
       }
