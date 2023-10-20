@@ -1,6 +1,11 @@
-section{
+section {
 
     display: flex;
-    flex-direction: column;
-    flex: 200px;  
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 10px;
+}
+
+article {
+    margin: 10px;
 }
