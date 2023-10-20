@@ -1,10 +1,18 @@
 body {
     background-color: rgb(182, 230, 173);
   }
+  .row {
+    display: flex;
+  }
   
-  h1 {
+  .column {
+    flex: 50%;
+    padding: 5px;
+  }
+
+  h1,h2,h3 {
     color: rgb(150, 216, 227);
-    margin-left: 20px;
+    margin-left: 10px;
   }
   ul{
     color: rgb(151, 215, 218);
@@ -23,7 +31,4 @@ body {
   }
   a{
     color: rgb(147, 237, 213)
-  }
-  h3{
-    color:rgb(30, 223, 158)
   }
