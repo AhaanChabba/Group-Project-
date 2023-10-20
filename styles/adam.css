@@ -4,16 +4,14 @@ h1 {
   }
  
   
-p:first-child{
+li:first-child{
     color:blue
 }
 
-  ul{
+  ul:first-child{
     color:darkgreen
   }
-  p:first-child{
-    color:darkgreen
-  }
+ 
 
   #idname {
 
