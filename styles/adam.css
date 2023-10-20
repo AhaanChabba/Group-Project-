@@ -13,10 +13,16 @@ li:first-child{
   }
  
 
-  #idname {
+  #idparagraph {
 
   }
 
-  .classname {
+  .paragraph {
 
+font-style: oblique;
   }
+
+  p{
+    padding:0;
+margin:1.5vh;
+}
