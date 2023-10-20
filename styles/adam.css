@@ -3,19 +3,9 @@ h1 {
     font-size: 5em;
   }
  
-  
-li:first-child{
+.one:first-child:first-child{
     color:blue
 }
-
-  ul:first-child{
-    color:darkgreen
-  }
- 
-
-  #idparagraph {
-
-  }
 
   .paragraph {
 
