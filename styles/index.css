@@ -1,0 +1,11 @@
+section {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 10px;
+}
+
+article {
+    margin: 10px;
+}
