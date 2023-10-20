@@ -1,5 +1,5 @@
-section {
 
+section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -14,3 +14,6 @@ a:hover{
 article {
     margin: 10px;
 }
+a {
+    display: flex;
+  }
