@@ -1,6 +1,6 @@
 h1 {
     color: crimson;
-    font-size: 10em;
+    font-size: 5em;
   }
  
   .one:first-child{
@@ -12,7 +12,7 @@ p {
  }
 
  .body {
-    background-image: url("paper.gif.png");
+    background-image: url("saka.png");
  }
 
  h1 {
