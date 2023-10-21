@@ -29,7 +29,7 @@ body {
 }
 
 a:hover {
-    background-color: rgb(225, 156, 217)
+    background-color: rgb(132, 132, 132)
 }
 
 article {
@@ -57,7 +57,7 @@ nav li{
 }
 
 nav a {
-    color: rgb(124, 219, 232);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     text-transform: capitalize;
     font-size: 14px;
