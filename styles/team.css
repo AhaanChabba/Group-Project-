@@ -1,0 +1,17 @@
+a:link, a:visited {
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+a:hover, a:active{
+        background-color: rgb(225, 156, 217)
+    
+}
+
+*{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+}

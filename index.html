@@ -1,32 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
     <link rel="stylesheet" href="styles/index.css">
-    <meta chartset="UTF-8">
-    <title> Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-
-    <header>
-        <div class="container">
-
-            <img src = "Logo.png" alt = "failed" class = "logo" width="150" height="75">
+    <div class="container">
+        <div class="navbar">
+            <img src="Logo.png" class="logo">
             <nav>
-
                 <ul>
-                    <li> <a href="./AlisaHTMLfile.html"> Track and Field</a></li>
-                    <li><a href="./Chelsea.html">Chelsea</a></li>
-                    <li><a href="./Ahaan.html">Arsenal</a></li>
-                    <li><a href="./AdamHTMLFile.html">Real Madrid</a></li>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">REGION</a></li>
+                    <li><a href="">ABOUT</a></li>
                 </ul>
-
             </nav>
-
+            <img src="menu.png" class = "menu-icon">
         </div>
-        </header>
 
-</body>  
-</html>
-</html>
+        <div class="row">
+            <div class="col">
+                <h1>Sports Mania!</h1>
+                <p>Add some text maybe</p>
+                <button type = "button">PlaceHolding</button> 
+            </div>
+            <div class="col">
+                <div class="card card1" onclick='window.location.href="./Ahaan.html"'>
+                    <h5>Arsenal</h5>
+                    <p>Some Text</p>
+
+                </div>
+                <div class="card card2 " onclick='window.location.href="./Chelsea.html"'>
+                    <h5>Chelsea</h5>
+                    <p>Some Text</p>
+                </div>
+                <div class="card card3" onclick='window.location.href="./AdamHTMLFile.html"'>
+                    <h5>Real Madrid</h5>
+                    <p>Some Text</p>
+                </div>
+                <div class="card card4" onclick='window.location.href="./AlisaHTMLfile.html"'>
+                    <h5>Track</h5>
+                    <p>Some Text</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+

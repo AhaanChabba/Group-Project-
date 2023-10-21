@@ -1,3 +1,29 @@
-p {
-   margin: 1.5vh; 
+body {
+   margin: 0;
+   
+}
+
+h1 {
+   margin: 0;
+}
+
+a {
+   color: inherit;
+}
+
+.container {
+   width: 70%;
+   margin: 0 auto;
+}
+
+.first {
+   background-color: white;
+ 
+}
+.second{
+
+   background: white;
+}
+.third{
+   background: white;
 }
