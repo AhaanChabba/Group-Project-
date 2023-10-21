@@ -1,15 +1,29 @@
 body {
     background-image: linear-gradient(to right, blue, silver);
-    margin-right: 0vw
+    margin-right: 0vw;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
 }
 
-section {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex: 10px;
+.container{
+
+    width: 80%;
+    margin: 0 auto;
 }
 
+header {
+    background: #55d6ea;
+}
+
+header::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.logo{
+    float: left;
+}
 body {
     font-family: sans-serif;
 }
@@ -24,5 +38,27 @@ article {
 
 a {
     display: flex;
-    color: rgb(124, 219, 232)
+    color : black;
+}
+
+nav{
+ float: right;   
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 35px; 
+}
+
+nav a {
+    color: rgb(124, 219, 232);
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 14px;
 }
