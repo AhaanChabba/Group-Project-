@@ -1,0 +1,30 @@
+h1 {
+    color: crimson;
+    font-size: 5em;
+  }
+ 
+  .one:first-child{
+    color:white
+}
+
+p {
+    margin: 1.5vh; 
+ }
+
+ .body {
+    background-image: url("saka.png");
+ }
+
+ h1 {
+    font-style: oblique;
+      }
+      a {
+        width: 100px;
+        height: 100px;
+        background: red;
+        transition: width 2s;
+      }
+      
+      div:hover {
+        width: 300px;
+      }
