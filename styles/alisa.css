@@ -1,5 +1,6 @@
 body {
     background-color: rgb(182, 230, 173);
+    background-image: radial-gradient(circle, rgb(221, 184, 184) 1%, rgb(136, 0, 255), rgb(96, 23, 113) 60%);
     margin-right: 10px;
   }
  
