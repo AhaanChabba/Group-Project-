@@ -1,6 +1,6 @@
 h1 {
     color: crimson;
-    font-size: 5em;
+    font-size: 2em;
   }
  
   .one:first-child{
@@ -12,19 +12,10 @@ p {
  }
 
  .body {
-    background-image: url("saka.png");
+    background-image: url("saka,png");
  }
 
- h1 {
-    font-style: oblique;
-      }
-      a {
-        width: 100px;
-        height: 100px;
-        background: red;
-        transition: width 2s;
+ a {
+    font-style: "Lucida Console";
       }
       
-      div:hover {
-        width: 300px;
-      }
