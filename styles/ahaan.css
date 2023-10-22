@@ -1,6 +1,6 @@
 h1 {
     color: crimson;
-    font-size: 5em;
+    font-size: 2em;
   }
  
   .one:first-child{
@@ -11,20 +11,9 @@ p {
     margin: 1.5vh; 
  }
 
- .body {
+.a {
     background-image: url("saka.png");
- }
+  }
+  
+  
 
- h1 {
-    font-style: oblique;
-      }
-      a {
-        width: 100px;
-        height: 100px;
-        background: red;
-        transition: width 2s;
-      }
-      
-      div:hover {
-        width: 300px;
-      }
