@@ -1,5 +1,8 @@
 body {
    margin: 0;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-image: url("../Chelsea");
    
 }
 
@@ -7,6 +10,10 @@ h1 {
    margin: 0;
 }
 
+p{
+   line-height: 1.75;
+   color: black;
+}
 a {
    color: inherit;
 }
@@ -16,14 +23,20 @@ a {
    margin: 0 auto;
 }
 
-.first {
-   background-color: white;
- 
+section{
+   padding: 120px 0;
 }
-.second{
 
-   background: white;
+.button{
+   display: inline-block;
+   padding: 1em 2em;
+   text-decoration: none;
+   transition: ease-in-out 250ms;
+   background: red;
+   box-shadow: 0px 4px 5px -2px orange;
+   color: white;
+
 }
-.third{
-   background: white;
+.button:hover{
+   transform: translateY(-10px);
 }
