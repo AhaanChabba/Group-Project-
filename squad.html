@@ -2,10 +2,14 @@
 <html>
 
 <head>
+    
     <title>Chelsea F.C.</title>
 </head>
 
 <style>
+    .head{
+        background-color: grey
+    }
     .container {
         display: flex;
         align-items: center;
@@ -31,6 +35,19 @@
     body {
         background-color: grey;
     }
+    .button{
+    display: inline-block;
+    padding: 1em 2em;
+    text-decoration: none;
+    transition: ease-in-out 250ms;
+    background: red;
+    box-shadow: 0px 4px 5px -2px orange;
+    color: white;
+
+}
+.button:hover{
+   transform: translateY(-10px);
+}
 </style>
 
 <!-- Code above taken and modified from https://codedamn.com/news/frontend/how-to-put-image-and-text-side-by-side-in-html -->
@@ -337,6 +354,10 @@
                 </div>
             </div>
     </div>
+    <h1>Directory</h1>
+    <a href="./matches.html" class="button">Fixtures</a>
+    <a href="Chelsea.html" class ="button">About</a>
+    <a href="./index.html" class="button">Back to Index</a>
 
 
     </dl>
