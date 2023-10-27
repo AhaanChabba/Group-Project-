@@ -1,9 +1,8 @@
 document.getElementById("b1").addEventListener("click", buttonP);
-//  <p>
-// You pressed a button!
-//</p>
-document.getElementById("b2").addEventListener("click", buttonH4)
-
+document.getElementById("b2").addEventListener("click", buttonH4);
+document.getElementById("colorPurple").addEventListener("click", buttonPurple);
+document.getElementById("colorGreen").addEventListener("click", buttonGreen);
+document.getElementById("colorPink").addEventListener("click", buttonPink);
 //console.log(document.getElementById("b1"))
 function buttonP (){
     const paragraph = document.createElement("p");
@@ -18,3 +17,20 @@ function buttonP (){
      var change = parseInt(gonnaChange) + 1;
      document.getElementById("changing").innerHTML = change;
 } 
+function buttonPurple (){
+    /*const para = getElementById("colorP");
+    const.style.color = purple; */
+    var para = document.getElementById("colorP"); 
+    para.style.color = "purple";
+}
+function buttonGreen (){
+    var para = document.getElementById("colorP"); 
+    para.style.color = "green";
+
+}
+function buttonPink (){
+    var para = document.getElementById("colorP"); 
+    para.style.color = "pink";
+
+}
+    
