@@ -10,6 +10,9 @@
     <div id = "div1"> 
     </div>
     <!-- question 3 button: -->
+    <h4>
+
+    </h4>
     <button type = "button" id = "b2"> Click Me Too! </button>
     <h4> number of times second button has been clicked: </h4>
     <h4 id = "changing">
@@ -22,22 +25,29 @@
     <button type = "button" id = "colorPurple"> purple</button>
     <button type = "button" id = "colorGreen"> green </button>
     <button type = "button" id = "colorPink"> pink </button>
+
     <!-- question 5 text box & button-->
+    
+    
     <h4></h4>
     <label for="Name">Question 5:</label>
     <input type= "text" id="tbox" name="Question5:">
-    <div id = "div2"> </div>
-    <button type = "button" id = submit> Submit</button>
+    <button type = "button" id = "submit"> Submit</button>
     
-    <!-- question 6 textbox-->
+    <!-- question 6 textbox & drop menu-->
     <p id = "fontsP">
         expirament with fonts
     </p>
-    <label for="fonts">Choose a font:</label> 
-    <select name="fonts" id="fonts"> 
-        <option value="arial"> arial</option> 
-        <option value="comic sans"> comic sans</option> 
-        <option value="lobster">lobster</option> 
+    
+    <!--<label for="fonts">Choose a font:</label> -->
+    <select id="font" onchange="changeFontStyle (this);"> 
+        <option value="Times New Roman" 
+            selected="selected"> 
+            Times New Roman 
+        </option> 
+        <option value="Courier New"> Courir New</option> 
+        <option value="cursive">cUrSiVe</option> 
     </select>
+    
 </body>
 </html>

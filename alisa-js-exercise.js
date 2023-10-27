@@ -4,6 +4,7 @@ document.getElementById("colorPurple").addEventListener("click", buttonPurple);
 document.getElementById("colorGreen").addEventListener("click", buttonGreen);
 document.getElementById("colorPink").addEventListener("click", buttonPink);
 document.getElementById("submit").addEventListener("click", mirror);
+
 //console.log(document.getElementById("b1"))
 //add p element that says "you pressed a button!"
 function buttonP (){
@@ -39,11 +40,20 @@ function buttonPink (){
     para.style.color = "pink";
 
 }
+// question 5: mirroring
+
 function mirror (){
-    const inp = document.getElementById("tbox");
-    const box = document.getElementById("div2");
-   
-    
+    var inp = document.getElementById("tbox").innerText;
+    var change = inp;
+    document.getElementById("tbox").innerText = change;
 
 }
+
+var changeFontStyle = function (font) { 
+    document.getElementById( 
+        "fontsP").style.fontFamily 
+                = font.value; 
+} 
+
+
     
