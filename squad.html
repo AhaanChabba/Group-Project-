@@ -2,30 +2,52 @@
 <html>
 
 <head>
+    
     <title>Chelsea F.C.</title>
 </head>
 
 <style>
+    .head{
+        background-color: grey
+    }
     .container {
         display: flex;
         align-items: center;
-        justify-content: left
+        justify-content: left;
+       
     }
-    .section{
+
+    .section {
         width: 70%;
         margin: 0% auto;
     }
+
     img {
         max-width: 100%;
         max-height: 100%;
     }
 
     .text {
-        font-size: 10px;
+        font-size: 20px;
         padding-left: 20px;
     }
 
+    body {
+        background-color: grey;
+    }
+    .button{
+    display: inline-block;
+    padding: 1em 2em;
+    text-decoration: none;
+    transition: ease-in-out 250ms;
+    background: red;
+    box-shadow: 0px 4px 5px -2px orange;
+    color: white;
 
+}
+.button:hover{
+   transform: translateY(-10px);
+}
 </style>
 
 <!-- Code above taken and modified from https://codedamn.com/news/frontend/how-to-put-image-and-text-side-by-side-in-html -->
@@ -37,352 +59,309 @@
 
 <body>
 
-    <h1>Roster</h1>
 
     <div class="section section1">
-    <h2>Goalkeepers</h2>
+        <h2>Goalkeepers</h2>
 
-    <dl>
-        <div class="container">
-            <div class="image">
-                <img src="Player Images/Bettinelli.png" alt="Failed" width="40" height="40">
+        <dl>
+            <div class="container">
+                <div class="image">
+                    <img src="Player Images/Bettinelli.png" alt="Failed" width="50" height="50">
+                </div>
+                <div class="text">
+                    <dt> Marcus Bettinelli </dt>
+                    <dd><img src = "Flags/tn_eng-flag.gif" width="30" height="20"> England</dd>
+                </div>
             </div>
-            <div class="text">
-                <dt> Marcus Bettinelli </dt>
-            </div>
-        </div>
 
-        <div class="container">
-            <div class="image">
-                <img src="Player Images/Sánchez.png" alt="Failed" width="40" height="40">
+            <div class="container">
+                <div class="image">
+                    <img src="Player Images/Sánchez.png" alt="Failed" width="50" height="50">
+                </div>
+                <div class="text">
+                    <dt>Robert Sánchez</dt>
+                    <dd><img src = "Flags/tn_sp-flag.gif" width="30" height="20"> Spain</dd>
+                </div>
             </div>
-            <div class="text">
-                <dt>Robert Sánchez</dt>
-            </div>
-        </div>
 
-        <div class="container">
-            <div class="image">
-                <img src="Player Images/Petrovic.png" alt="Failed" width="40" height="40">
+            <div class="container">
+                <div class="image">
+                    <img src="Player Images/Petrovic.png" alt="Failed" width="50" height="50">
+                </div>
+                <div class="text">
+                    <dt>Djordje Petrovic</dt>
+                    <dd><img src = "Flags/tn_ri-flag.gif" width="30" height="20"> Serbia</dd>
+                </div>
             </div>
-            <div class="text">
-                <dt>Djordje Petrovic</dt>
-            </div>
-        </div>
-        </div>
+    </div>
 
     </dl>
 
     <div class="section section3">
-    <h2>Defenders</h2>
+        <h2>Defenders</h2>
 
 
-    <dl>
-        <div class="container">
-            <div class="image">
-                <img src="Player Images/Silva.png" alt="Failed" width="40" height="40">
+        <dl>
+            <div class="container">
+                <div class="image">
+                    <img src="Player Images/Silva.png" alt="Failed" width="50" height="50">
+                </div>
+                <div class="text">
+                    <dt>Thiago Silva</dt>
+                    <dd><img src = "Flags/tn_br-flag.gif" width="30" height="20"> Brazil</dd>
+                </div>
             </div>
-            <div class="text">
-                <dt>Thiago Silva</dt>
+            <div class="container">
+                <div class="image">
+                    <img src="Player Images/Chilwell.png" alt="Failed" width="50" height="50">
+                </div>
+                <div class="text">
+                    <dt>Ben Chilwell</dt>
+                    <dd><img src = "Flags/tn_eng-flag.gif" width="30" height="20"> England</dd>
+                </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="image">
-                <img src="Player Images/Chilwell.png" alt="Failed" width="40" height="40">
+            <div class="container">
+                <div class="image">
+                    <img src="Player Images/Disasi.png" alt="Failed" width="50" height="50">
+                </div>
+                <div class="text">
+                    <dt>Axel Disasi</dt>
+                    <dd><img src = "Flags/tn_fr-flag.gif" width="30" height="20"> France</dd>
+                </div>
             </div>
-            <div class="text">
-                <dt>Ben Chilwell</dt>
+            <div class="container">
+                <div class="image">
+                    <img src="Player Images/Sarr.png" alt="Failed" width="50" height="50">
+                </div>
+                <div class="text">
+                    <dt>Malang Sarr</dt>
+                    <dd><img src = "Flags/tn_fr-flag.gif" width="30" height="20"> France</dd>
+                </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="image">
-                <img src="Player Images/Disasi.png" alt="Failed" width="40" height="40">
+            <div class="container">
+                <div class="image">
+                    <img src="Player Images/Chalobah.png" alt="Failed" width="50" height="50">
+                </div>
+                <div class="text">
+                    <dt>Trevoh Chalobah</dt>
+                    <dd><img src = "Flags/tn_eng-flag.gif" width="30" height="20"> England</dd>
+                </div>
             </div>
-            <div class="text">
-                <dt>Axel Disasi</dt>
+            <div class="container">
+                <div class="image">
+                    <img src="Player Images/James.png" alt="Failed" width="50" height="50">
+                </div>
+                <div class="text">
+                    <dt>Reece James </dt>
+                    <dd><img src = "Flags/tn_eng-flag.gif" width="30" height="20"> England</dd>
+                </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="image">
-                <img src="Player Images/Sarr.png" alt="Failed" width="40" height="40">
+            <div class="container">
+                <div class="image">
+                    <img src="Player Images/Marc.png" alt="Failed" width="50" height="50">
+                </div>
+                <div class="text">
+                    <dt>Marc Cucurella </dt>
+                    <dd><img src = "Flags/tn_sp-flag.gif" width="30" height="20"> Spain</dd>
+                </div>
             </div>
-            <div class="text">
-                <dt>Malang Sarr</dt>
+            <div class="container">
+                <div class="image">
+                    <img src="Player Images/Fofana.webp" alt="Failed" width="50" height="50">
+                </div>
+                <div class="text">
+                    <dt>Wesley Fofana</dt>
+                    <dd><img src = "Flags/tn_fr-flag.gif" width="30" height="20"> France</dd>
+                </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="image">
-                <img src="Player Images/Chalobah.png" alt="Failed" width="40" height="40">
+            <div class="container">
+                <div class="image">
+                    <img src="Player Images/Badiashille.png" alt="Failed" width="50" height="50">
+                </div>
+                <div class="text">
+                    <dt>Benoit Badiashille</dt>
+                    <dd><img src = "Flags/tn_fr-flag.gif" width="30" height="20"> France</dd>
+                </div>
             </div>
-            <div class="text">
-                <dt>Trevoh Chalobah</dt>
+            <div class="container">
+                <div class="image">
+                    <img src="Player Images/Maatsen.png" alt="Failed" width="50" height="50">
+                </div>
+                <div class="text">
+                    <dt>Ian Maatsen </dt>
+                    <dd><img src = "Flags/tn_nl-flag.gif" width="30" height="20"> Netherlands</dd>
+                </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="image">
-                <img src="Player Images/James.png" alt="Failed" width="40" height="40">
+            <div class="container">
+                <div class="image">
+                    <img src="Player Images/Colwill.png" alt="Failed" width="50" height="50">
+                </div>
+                <div class="text">
+                    <dt>Levi Colwill </dt>
+                    <dd><img src = "Flags/tn_eng-flag.gif" width="30" height="20"> England</dd>
+                </div>
             </div>
-            <div class="text">
-                <dt>Reece James </dt>
+            <div class="container">
+                <div class="image">
+                    <img src="Player Images/Gusto.png" alt="Failed" width="50" height="50">
+                </div>
+                <div class="text">
+                    <dt>Malo Gusto</dt>
+                    <dd><img src = "Flags/tn_fr-flag.gif" width="30" height="20"> France</dd>
+                </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="image">
-                <img src="Player Images/Marc.png" alt="Failed" width="40" height="40">
-            </div>
-            <div class="text">
-                <dt>Marc Cucurella </dt>
-            </div>
-        </div>
-        <div class="container">
-            <div class="image">
-                <img src="Player Images/Fofana.webp" alt="Failed" width="40" height="40">
-            </div>
-            <div class="text">
-                <dt>Wesley Fofana</dt>
-            </div>
-        </div>
-        <div class="container">
-            <div class="image">
-                <img src="Player Images/Badiashille.png" alt="Failed" width="40" height="40">
-            </div>
-            <div class="text">
-                <dt>Benoit Badiashille</dt>
-            </div>
-        </div>
-        <div class="container">
-            <div class="image">
-                <img src="Player Images/Maatsen.png" alt="Failed" width="40" height="40">
-            </div>
-            <div class="text">
-                <dt>Ian Maatsen </dt>
-            </div>
-        </div>
-        <div class="container">
-            <div class="image">
-                <img src="Player Images/Colwill.png" alt="Failed" width="40" height="40">
-            </div>
-            <div class="text">
-                <dt>Levi Colwill </dt>
-            </div>
-        </div>
-        <div class="container">
-            <div class="image">
-                <img src="Player Images/Gusto.png" alt="Failed" width="40" height="40">
-            </div>
-            <div class="text">
-                <dt>Malo Gusto</dt>
-            </div>
-        </div>
-        </div>
+    </div>
     </dl>
 
 
     <div class="section section2">
-    <h2>Midfielders</h2>
+        <h2>Midfielders</h2>
 
-    <dl>
-        <div class="container">
-            <div class="image">
-                <img src="Player Images/Conor.png" alt="Failed" width="40" height="40">
+        <dl>
+            <div class="container">
+                <div class="image">
+                    <img src="Player Images/Conor.png" alt="Failed" width="50" height="50">
+                </div>
+                <div class="text">
+                    <dt>Conor Gallagher</dt>
+                    <dd><img src = "Flags/tn_eng-flag.gif" width="30" height="20"> England</dd>
+                </div>
             </div>
-            <div class="text">
-                <dt>Conor Gallagher</dt>
+            <div class="container">
+                <div class="image">
+                    <img src="Player Images/Carney.png" alt="Failed" width="50" height="50">
+                </div>
+                <div class="text">
+                    <dt>Carney Chukwuemeka</dt>
+                    <dd><img src = "Flags/tn_eng-flag.gif" width="30" height="20"> England</dd>
+                </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="image">
-                <img src="Player Images/Carney.png" alt="Failed" width="40" height="40">
+            <div class="container">
+                <div class="image">
+                    <img src="Player Images/Palmer.png" alt="Failed" width="50" height="50">
+                </div>
+                <div class="text">
+                    <dt>Cole Palmer</dt>
+                    <dd><img src = "Flags/tn_eng-flag.gif" width="30" height="20"> England</dd>
+                </div>
             </div>
-            <div class="text">
-                <dt>Carney Chukwuemeka</dt>
+            <div class="container">
+                <div class="image">
+                    <img src="Player Images/Caicedo.png" alt="Failed" width="50" height="50">
+                </div>
+                <div class="text">
+                    <dt>Moisés Caicedo</dt>
+                    <dd><img src = "Flags/tn_ec-flag.gif" width="30" height="20"> Ecuador</dd>
+                </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="image">
-                <img src="Player Images/Palmer.png" alt="Failed" width="40" height="40">
+            <div class="container">
+                <div class="image">
+                    <img src="Player Images/Enzo.png" alt="Failed" width="50" height="50">
+                </div>
+                <div class="text">
+                    <dt>Enzo Fernández </dt>
+                    <dd><img src = "Flags/tn_ar-flag.gif" width="30" height="20"> Argentina</dd>
+                </div>
             </div>
-            <div class="text">
-                <dt>Cole Palmer</dt>
+            <div class="container">
+                <div class="image">
+                    <img src="Player Images/Lavia.png" alt="Failed" width="50" height="50">
+                </div>
+                <div class="text">
+                    <dt>Romeo Lavia </dt>
+                    <dd><img src = "Flags/tn_be-flag.gif" width="30" height="20"> Belgium</dd>
+                </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="image">
-                <img src="Player Images/Caicedo.png" alt="Failed" width="40" height="40">
+            <div class="container">
+                <div class="image">
+                    <img src="Player Images/Lesley.png" alt="Failed" width="50" height="50">
+                </div>
+                <div class="text">
+                    <dt>Lesley Ugochukwu </dt>
+                    <dd><img src = "Flags/tn_fr-flag.gif" width="30" height="20"> France</dd>
+                </div>
             </div>
-            <div class="text">
-                <dt>Moisés Caicedo</dt>
-            </div>
-        </div>
-        <div class="container">
-            <div class="image">
-                <img src="Player Images/Enzo.png" alt="Failed" width="40" height="40">
-            </div>
-            <div class="text">
-                <dt>Enzo Fernández </dt>
-            </div>
-        </div>
-        <div class="container">
-            <div class="image">
-                <img src="Player Images/Lavia.png" alt="Failed" width="40" height="40">
-            </div>
-            <div class="text">
-                <dt>Romeo Lavia </dt>
-            </div>
-        </div>
-        <div class="container">
-            <div class="image">
-                <img src="Player Images/Lesley.png" alt="Failed" width="40" height="40">
-            </div>
-            <div class="text">
-                <dt>Lesley Ugochukwu </dt>
-            </div>
-        </div>
     </div>
     </dl>
 
-    <h2>Attackers</h2>
 
-    <dl>
-        <div class="section section4">
-        <div class="container">
-            <div class="image">
-                <img src="Player Images/Sterling.webp" alt="Failed" width="40" height="40">
+
+
+    <div class="section section4">
+        <h2>Attackers</h2>
+        <dl>
+            <div class="container">
+                <div class="image">
+                    <img src="Player Images/Sterling.webp" alt="Failed" width="50" height="50">
+                </div>
+                <div class="text">
+                    <dt>Raheem Sterling</dt>
+                    <dd><img src = "Flags/tn_eng-flag.gif" width="30" height="20"> England</dd>
+                </div>
             </div>
-            <div class="text">
-                <dt>Raheem Sterling</dt>
+            <div class="container">
+                <div class="image">
+                    <img src="Player Images/Nkunku.png" alt="Failed" width="50" height="50">
+                </div>
+                <div class="text">
+                    <dt>Christopher Nkunku</dt>
+                    <dd><img src = "Flags/tn_fr-flag.gif" width="30" height="20"> France</dd>
+                </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="image">
-                <img src="Player Images/Nkunku.png" alt="Failed" width="40" height="40">
+            <div class="container">
+                <div class="image">
+                    <img src="Player Images/Broja.png" alt="Failed" width="50" height="50">
+                </div>
+                <div class="text">
+                    <dt>Armando Broja</dt>
+                    <dd><img src = "Flags/tn_al-flag.gif" width="30" height="20"> Albania</dd>
+                </div>
             </div>
-            <div class="text">
-                <dt>Christopher Nkunku</dt>
+            <div class="container">
+                <div class="image">
+                    <img src="Player Images/Madueke.png" alt="Failed" width="50" height="50">
+                </div>
+                <div class="text">
+                    <dt>Noni Madueke</dt>
+                    <dd><img src = "Flags/tn_eng-flag.gif" width="30" height="20"> England</dd>
+                </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="image">
-                <img src="Player Images/Broja.png" alt="Failed" width="40" height="40">
+            <div class="container">
+                <div class="image">
+                    <img src="Player Images/Mudryk.png" alt="Failed" width="50" height="50">
+                </div>
+                <div class="text">
+                    <dt>Mykhailo Mudryk</dt>
+                    <dd><img src = "Flags/tn_up-flag.gif" width="30" height="20"> Ukraine</dd>
+                </div>
             </div>
-            <div class="text">
-                <dt>Armando Broja</dt>
+            <div class="container">
+                <div class="image">
+                    <img src="Player Images/Jackson.png" alt="Failed" width="50" height="50">
+                </div>
+                <div class="text">
+                    <dt>Nicolas Jackson</dt>
+                    <dd><img src = "Flags/tn_sg-flag.gif" width="30" height="20"> Senegal</dd>
+                </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="image">
-                <img src="Player Images/Madueke.png" alt="Failed" width="40" height="40">
+            <div class="container">
+                <div class="image">
+                    <img src="Player Images/Washington.webp" alt="Failed" width="50" height="50">
+                </div>
+                <div class="text">
+                    <dt>Deivid Washington de Souza</dt>
+                    <dd><img src = "Flags/tn_br-flag.gif" width="30" height="20"> Brazil</dd>
+                </div>
             </div>
-            <div class="text">
-                <dt>Noni Madueke</dt>
-            </div>
-        </div>
-        <div class="container">
-            <div class="image">
-                <img src="Player Images/Mudryk.png" alt="Failed" width="40" height="40">
-            </div>
-            <div class="text">
-                <dt>Mykhailo Mudryk</dt>
-            </div>
-        </div>
-        <div class="container">
-            <div class="image">
-                <img src="Player Images/Jackson.png" alt="Failed" width="40" height="40">
-            </div>
-            <div class="text">
-                <dt>Nicolas Jackson</dt>
-            </div>
-        </div>
-        <div class="container">
-            <div class="image">
-                <img src="Player Images/Washington.webp" alt="Failed" width="40" height="40">
-            </div>
-            <div class="text">
-                <dt>Deivid Washington de Souza</dt>
-            </div>
-        </div>
     </div>
+    <h1>Directory</h1>
+    <a href="./matches.html" class="button">Fixtures</a>
+    <a href="Chelsea.html" class ="button">About</a>
+    <a href="./index.html" class="button">Back to Index</a>
 
 
     </dl>
 
-    <div \]]]class="section section5">
-    <h1>Injury List</h1>
-    <p>A List of Players Currently Injured for Chelsea</p>
-    <dl>
-        <div class="container">
-            <div class="image">
-                <img src="Player Images/Bettinelli.png" alt="Failed" width="40" height="40">
-            </div>
-            <div class="text">
-                <dt> Marcus Bettinelli </dt>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="image">
-                <img src="Player Images/Chilwell.png" alt="Failed" width="40" height="40">
-            </div>
-            <div class="text">
-                <dt>Ben Chilwell</dt>
-            </div>
-        </div>
-        <div class="container">
-            <div class="image">
-                <img src="Player Images/Chalobah.png" alt="Failed" width="40" height="40">
-            </div>
-            <div class="text">
-                <dt>Trevoh Chalobah</dt>
-            </div>
-        </div>
-        <div class="container">
-            <div class="image">
-                <img src="Player Images/James.png" alt="Failed" width="40" height="40">
-            </div>
-            <div class="text">
-                <dt>Reece James</dt>
-            </div>
-        </div>
-        <div class="container">
-            <div class="image">
-                <img src="Player Images/Fofana.webp" alt="Failed" width="40" height="40">
-            </div>
-            <div class="text">
-                <dt>Wesley Fofana</dt>
-            </div>
-        </div>
-        <div class="container">
-            <div class="image">
-                <img src="Player Images/Badiashille.png" alt="Failed" width="40" height="40">
-            </div>
-            <div class="text">
-                <dt>Benoit Badiashille</dt>
-            </div>
-        </div>
-        <div class="container">
-            <div class="image">
-                <img src="Player Images/Lavia.png" alt="Failed" width="40" height="40">
-            </div>
-            <div class="text">
-                <dt>Romeo Lavia </dt>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="image">
-                <img src="Player Images/Nkunku.png" alt="Failed" width="40" height="40">
-            </div>
-            <div class="text">
-                <dt>Christopher Nkunku</dt>
-            </div>
-        </div>
-        </div>
-    </dl>
-
-
-    <footer>By : Antwone Henry</footer>
-
-    <a href=index.html>Return to Landing Page</a>
 </body>
 
 </html>
