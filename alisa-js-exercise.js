@@ -17,7 +17,7 @@ function buttonP (){
 }
 //function that changes the inner html text 
  function buttonH4 (){
-     var gonnaChange = document.getElementById("changing").innerHTML;
+     const gonnaChange = document.getElementById("changing").innerHTML;
      var change = parseInt(gonnaChange) + 1; //parseint casts the innerNTML to an int
      document.getElementById("changing").innerHTML = change;
 }
@@ -43,9 +43,12 @@ function buttonPink (){
 // question 5: mirroring
 
 function mirror (){
-    var inp = document.getElementById("tbox").innerText;
-    var change = inp;
-    document.getElementById("tbox").innerText = change;
+    console.log("hello i am pressing the button");
+    var change = document.getElementById("tbox").value;
+    console.log(change);
+    var mirrored = change.split('').reverse().join('');
+    console.log(mirrored);
+    document.getElementById("outp").innerHTML = "mirror effect: " + change + mirrored;
 
 }
 
