@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(182, 230, 173);
+    margin-right: 10px;
+  }
+button#colorPurple{
+    background-color: rgb(140, 66, 140)
+}
+button#colorGreen{
+    background-color: rgb(171, 210, 113)
+}
+button#colorPink{
+    background-color: rgb(239, 128, 147)
+}
+
